@@ -5,3 +5,5 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
   apt-get install nano && \
   apt-get install ansible -y
+  
+  COPY /etc/ansible/hosts /etc/ansible/hosts
