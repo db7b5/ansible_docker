@@ -8,4 +8,4 @@ RUN apt-get update && \
   
 RUN apt-get install sshpass -y
   
-COPY /etc/ansible/* /etc/ansible/
+COPY /etc/ansible/* /etc/ansible/*
